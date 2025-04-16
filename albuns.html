@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÁLBUNS | Kendrick Lamar</title>
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="img/icon.png" alt="Logo Kendrick Lamar" class="logo-img">Kendrick Lamar</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="albuns.html">Álbuns</a>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <caption><h1>Álbuns de Kendrick Lamar</h1></caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th><h3>Nome do álbum</h3></th>
+                    <th><h3>Ano</h3></th>
+                    <th><h3>O melhor feat</h3></th>
+                    <th><h3>A melhor faixa</h3></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/gnx.jpg" alt="GNX" class="miniatura" data-album="gnx"></td>
+                    <td>GNX</td>
+                    <td>2024</td>
+                    <td>SZA</td>
+                    <td>Luther (with SZA)</td>
+                </tr>
+                <tr>
+                    <td><img src="img/morale.jpg" alt="Mr. Morale" class="miniatura" data-album="morale"></td>
+                    <td>Mr. Morale & The Big Steppers</td>
+                    <td>2022</td>
+                    <td>Summer Walker</td>
+                    <td>Mirror</td>
+                </tr>
+                <tr>
+                    <td><img src="img/damn.jpg" alt="DAMN." class="miniatura" data-album="damn"></td>
+                    <td>DAMN.</td>
+                    <td>2017</td>
+                    <td>Rihanna</td>
+                    <td>LOYALTY.FEAT.RIHANNA</td>
+                </tr>
+                <tr>
+                    <td><img src="img/butterfly.jpg" alt="To Pimp A Butterfly" class="miniatura" data-album="butterfly"></td>
+                    <td>To Pimp A Butterfly</td>
+                    <td>2015</td>
+                    <td>Snoop Dogg</td>
+                    <td>Alright</td>
+                </tr>
+                <tr>
+                    <td><img src="img/good.jpg" alt="good kid, m.A.A.d city" class="miniatura" data-album="kidcity"></td>
+                    <td>good kid, m.A.A.d city</td>
+                    <td>2012</td>
+                    <td>Jay-Z</td>
+                    <td>Poetic Justice</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <!-- Modal de imagem -->
+        <div id="album-image-container">
+            <button id="close-modal">X</button>
+            <img id="album-image" src="" alt="Capa do álbum">
+        </div>
+    </main>   
+
+    <footer>
+        <p>&copy; 2025 Kendrick Lamar Fanpage. Todos os direitos reservados.</p>
+    </footer>    
+    <script src="script.js"></script>
+</body>
+</html>
